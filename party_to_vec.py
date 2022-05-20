@@ -8,6 +8,10 @@ corpus = pd.read_csv('C:/data/word2vec/term_9.csv')
 
 texts = corpus.text.values
 
+
+# ARTUR Tu był!
+
+
 # preprocess the text
 texts = [simple_preprocess(text) for text in texts]
 
